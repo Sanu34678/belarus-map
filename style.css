@@ -74,9 +74,9 @@ body {
 /* Цвета для разных типов меток */
 .home { background: linear-gradient(135deg, #a000c1, #a000c1); }
 .car { background: linear-gradient(135deg, #75bf05, #75bf05); }
-.tree { background: linear-gradient(135deg, #339af0, #339af0); }
+.tree { background: linear-gradient(135deg, #ff3434, #ff3434); }
 .shop { background: linear-gradient(135deg, #fcc419, #fcc419); }
-.star { background: linear-gradient(135deg, #ff3434, #ff3434); }
+.star { background: linear-gradient(135deg, #339af0, #339af0); }
 
 /* Сообщения */
 .message {
