@@ -19,11 +19,11 @@ let activeMarkers = {};
 
 // Стили для меток
 const markerStyles = {
-    home: { name: 'Ямы' },
-    car: { name: 'Пробка' },
-    tree: { name: 'Дрон' },
-    shop: { name: 'Камера' },
-    star: { name: 'Пост' }
+    home: { name: 'Увяз в грязи' },
+    car: { name: 'Помощь человеку' },
+    tree: { name: 'SOS' },
+    shop: { name: 'Кончилось топливо' },
+    star: { name: 'Поломка ТС' }
 };
 
 // ============================================
@@ -528,4 +528,5 @@ setInterval(() => {
             removeMarkerFromMap(markerId);
         }
     });
+
 }, 60000); // Каждую минуту
